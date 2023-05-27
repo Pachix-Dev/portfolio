@@ -1,4 +1,4 @@
-import { motion, useMotionValueEvent, useScroll, useTransform } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 
 export function PlaceholderCodeRight (props) {
   const { scrollYProgress } = useScroll()
@@ -7,10 +7,6 @@ export function PlaceholderCodeRight (props) {
     [props.initialY, props.progressY],
     [0, 50]
   )
-  useMotionValueEvent(scrollYProgress, 'change', (latest) => {
-    console.log('y changed to', latest)
-  })
-
   return (
     <>
       <div className='inicio-code-right-bg'>

@@ -24,5 +24,6 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
-  }
+  },
+  "homepage": "https://yapura.com.mx/"
 }
