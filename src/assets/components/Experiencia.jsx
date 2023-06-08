@@ -11,7 +11,7 @@ export function Experiencia () {
             <Col lg={6} className='my-auto'>
               <div className='rb-left'>
                 <h6>Coordinador TI y DS</h6>
-                <label>Difraxion | Presencial</label>
+                <strong>Difraxion | Presencial</strong>
                 <p>2019 - 2023</p>
                 <span className='rb-time'>Tiempo Completo</span>
               </div>
@@ -39,7 +39,7 @@ export function Experiencia () {
             <Col lg={6}>
               <div className='rb-left'>
                 <h6>Programador Frontend y Backend</h6>
-                <label>Difraxion | Presencial</label>
+                <strong>Difraxion | Presencial</strong>
                 <p>2016 - 2019</p>
                 <span className='rb-time'>Tiempo Completo</span>
               </div>
@@ -66,7 +66,7 @@ export function Experiencia () {
             <Col lg={6}>
               <div className='rb-left'>
                 <h6>Programador Frontend</h6>
-                <label>Highview | Presencial</label>
+                <strong>Highview | Presencial</strong>
                 <p>2015 - 2016</p>
                 <span className='rb-time'>Tiempo Completo</span>
               </div>
@@ -85,7 +85,7 @@ export function Experiencia () {
             <Col lg={6}>
               <div className='rb-left'>
                 <h6>Practicante Programador</h6>
-                <label>Presidencia de León | Presencial</label>
+                <strong>Presidencia de León | Presencial</strong>
                 <p>2014 - 2015</p>
                 <span className='rb-time'>Medio Tiempo</span>
               </div>

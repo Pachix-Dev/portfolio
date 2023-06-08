@@ -117,9 +117,7 @@
     list-style: none;
     padding: 0;
 }
-.biografia-wrapper label{
-    font-weight: bolder;
-}
+
 .about-me {
     position: relative;
 }
@@ -321,6 +319,31 @@
     fill: white;
 }
 /*Proyectos*/
+.proyectos-content{
+    -webkit-column-count: 4;
+    -moz-column-count:4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    margin: 1.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+.item {
+    display: inline-block;    
+    margin: 0 0 1.5em;
+    width: 100%;
+	-webkit-transition: 1s ease all;
+    transition: 1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;    
+}
+
 .proyectos h1{
     color: white;
 }
@@ -388,6 +411,24 @@
     fill:rgb(54, 119, 162);
     background: rgb(52, 52, 52);
 }
+.proyectos-info button{
+    border: none;
+    background-color: transparent;
+}
+.proyectos-info button:hover svg{
+    fill:rgb(54, 119, 162);
+    background: rgb(52, 52, 52);
+}
+.carousel-control-prev{
+    height: 50px;
+    top: 40% !important;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.carousel-control-next{
+    height: 50px;
+    top: 40% !important;
+    background-color: rgba(0,0,0,0.7) !important;
+}
 /*footer*/
 footer{
     color: white;
@@ -438,19 +479,26 @@ footer u{
     color: rgb(54, 119, 162);
     font-weight: bold;
 }
-.footer-bottom label{
-    font-weight: bolder;
-    color: rgb(54, 119, 162);
-}
+
 .footer-bottom span{
     font-weight: lighter;
 }
 @media (max-width: 989px) { 
+    .proyectos-content {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
     .rb-right{
         padding-top: 30px;
     }
 }
 @media (max-width: 768px) { 
+    .proyectos-content {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
     .accordion{
         position: relative;
     }
@@ -464,6 +512,11 @@ footer u{
     }
 }
 @media (max-width: 425px) { 
+    .proyectos-content {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
     footer{
         text-align: center;
     }
@@ -504,13 +557,5 @@ footer u{
     }
     .inicio-text-intro p{
         font-size: 1rem;
-    }
-}
-@media (max-width: 375px) { 
-    .inicio-text-intro h1{
-        font-size: 2.1rem;
-    }
-    .inicio-text-intro h4{
-        font-size: 1.4rem;
     }
 }
