@@ -9,7 +9,7 @@ export function Proyectos () {
     <div id='proyectos' className='proyectos mt-5 mb-5 pt-5 pb-5 position-relative'>
       <Container>
         <h1>Proyectos.</h1>
-        <Nav defaultActiveKey='/all' className='mx-auto text-center' as='ul'>
+        <Nav defaultActiveKey='/all' className='mx-auto text-center'>
           <Nav.Link eventKey='/all' href='#all' onClick={() => setTag('all')}>All</Nav.Link>
           <Nav.Link href='#websites' onClick={() => setTag('website')}>Websites</Nav.Link>
           <Nav.Link href='#landing-page' onClick={() => setTag('landing')}>Lading page</Nav.Link>

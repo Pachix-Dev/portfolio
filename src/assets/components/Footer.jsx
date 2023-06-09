@@ -12,7 +12,7 @@ export function Footer () {
           <Col md={5}>
             <p>Información</p>
             <span>Léon, Guanjuato México</span>
-            <h4>hola@yapura.com.mx</h4>
+            <h2>hola@yapura.com.mx</h2>
             <ul className='mt-5 mb-5'>
               <li><a href='#Inicio'> Inicio </a></li>
               <li><a href='#sobre-mi'>Sobre mi</a></li>

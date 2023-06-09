@@ -19,7 +19,6 @@ export function ImagesModal (props) {
                 <Ratio aspectRatio={1600 / 9}>
                   <iframe
                     width='455' height='809' src={video}
-                    title='app js PhotoSelfie con chroma key videos'
                     allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
                     allowFullScreen
                   />

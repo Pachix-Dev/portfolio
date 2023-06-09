@@ -1,7 +1,7 @@
 import { Accordion, AccordionContext, Col, Container, Row } from 'react-bootstrap'
 import { useAccordionButton } from 'react-bootstrap/AccordionButton'
 import { useContext } from 'react'
-
+import avatarPachi from '../img/avatarPachi.webp'
 function ContextAwareToggle ({ children, eventKey, callback }) {
   const { activeEventKey } = useContext(AccordionContext)
   const decoratedOnClick = useAccordionButton(
@@ -35,7 +35,7 @@ export function Biografia () {
             <div className='about-me my-auto pt-5'>
               <div className='img'>
                 <div className='img-in'>
-                  <img src='https://unavatar.io/Pachix-Dev' alt='fabian-yapura-claros' />
+                  <img src={avatarPachi} alt='fabian-yapura-claros' className='w-100' />
                 </div>
                 <div className='social-icons justify-content-center'>
                   <a href='https://www.facebook.com/pachi.claros/' rel='noreferrer' target='_blank' aria-label='my facebook profile'>
@@ -56,8 +56,8 @@ export function Biografia () {
                 </div>
               </div>
               <div className='pt-5 text-center'>
-                <h5>Web Developer</h5>
-                <h2>Fabian Yapura</h2>
+                <h1>Fabian Yapura</h1>
+                <h2>Web Developer</h2>
               </div>
             </div>
           </Col>

@@ -285,10 +285,7 @@
     border-radius: 15px;
     padding: 35px;
 }
-.resume-row h6{
-    font-weight: bolder;
-    font-size: 20px;
-}
+
 .resume-row span{
     background-color: rgb(21, 114, 182, 1);
     padding: 10px;
@@ -305,16 +302,10 @@
     margin-top: 2em;
     border-radius: 15px;    
 }
-.reconocimiento-item h6{
-    font-weight: bolder;
-    font-size: 20px;
-}
 .reconocimiento-item p{
     font-weight: lighter;
 }
-.educacion h5{
-    font-weight: lighter;
-}
+
 .tecnologias{
     fill: white;
 }
@@ -542,9 +533,7 @@ footer u{
     .accordion-item h2{
         font-size: 20px;
     }
-    .educacion h5{
-        font-size: 18px;
-    }
+   
     .inicio-exp{
         justify-content:center;
         padding-bottom: 20px;
