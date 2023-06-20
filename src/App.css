@@ -9,10 +9,10 @@
   }
 /*Menu*/
 .nav-link:hover{
-    color: rgb(21, 114, 182) !important;
+    color: #F0DB4F !important;
 }
 .nav-link.active{
-    color: rgb(21, 114, 182) !important;
+    color: #F0DB4F !important;
     font-weight: bolder;
     text-decoration: underline;    
 }
@@ -21,7 +21,8 @@
     font-weight: bolder;
 }
 .menu a{
-    color: white;    
+    color: white;
+    font-weight: bold;    
 }
 .menu a:hover{
     color: white;
@@ -52,15 +53,18 @@
     font-family: "TWK Everett", "Helvetica Neue", Helvetica, "Arial sans-serif";
     letter-spacing: -0.05em;
     font-weight: bold;
-    text-shadow: 5px 5px 4px rgba(255,255,255,0.34)
+    text-shadow: 5px 5px 4px rgba(255,255,255,0.14)
 }
-.inicio-text-intro h4{
-    font-size: 2.6rem;
-}
+
 .inicio-text-intro p{
-    color: rgb(21, 114, 182);
+    color: #F0DB4F;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 4rem;
+}
+.inicio-text-intro span{
+    font-size: 2.3rem;
+    display: block;
+    color: #F5E684;
 }
 .inicio-code-left-bg{
     position: absolute;
@@ -182,21 +186,18 @@
     transform: scale(1.1);
 }
 .social-icons a:first-child{
-    top: -25px;
+    top: -10px;
     position: relative;
 }
 .social-icons a:nth-child(2){
-    top: -8px;
+    top: 0px;
     position: relative;
 }
-.social-icons a:nth-child(4){
-    top: -8px;
+.social-icons a:nth-child(3){
+    top: -10px;
     position: relative;
 }
-.social-icons a:nth-child(5){
-    top: -25px;
-    position: relative;
-}
+
 .blinkit {
     -webkit-animation: blink-anime 1.6s infinite;
     animation: blink-anime 1.6s infinite;
@@ -548,17 +549,15 @@ footer u{
         font-size: 20px;
     }
    
-    .inicio-exp{
-        justify-content:center;
-        padding-bottom: 20px;
-    }
+    
     .inicio-text-intro h1{
-        font-size: 2.6rem;
+        font-size: 2.8rem;
     }
-    .inicio-text-intro h4{
-        font-size: 1.2rem;
-    }
+    
     .inicio-text-intro p{
-        font-size: 1rem;
+        font-size: 2rem;
+    }
+    .inicio-text-intro span{
+        font-size: 1.2rem;
     }
 }
