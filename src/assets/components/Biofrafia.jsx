@@ -56,8 +56,7 @@ export function Biografia () {
                 </div>
               </div>
               <div className='pt-5 text-center'>
-                <h1>Fabian Yapura</h1>
-                <h2>Web Developer</h2>
+                <a href='https://yapura.com.mx/cv_Fabian_yapura_v2.pdf' target='_blank' rel='noreferrer' className='contratame'>Contrátame</a>
               </div>
             </div>
           </Col>
