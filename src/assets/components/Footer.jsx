@@ -11,7 +11,7 @@ export function Footer () {
           </Col>
           <Col md={5}>
             <p>Información</p>
-            <span>Léon, Guanjuato México</span>
+            <span>Léon, Guanajuato México</span>
             <h2>hola@yapura.com.mx</h2>
             <ul className='mt-5 mb-5'>
               <li><a href='#Inicio'> Inicio </a></li>
