@@ -20,7 +20,7 @@ export function Experiencia () {
               <div className='rb-right'>
                 <h3>Hannover Fairs México</h3>
                 <p>
-                  Soy parte de un equipo innovador y nuestra misión es contribuir al desarrollo económico de las empresas a través de la organización de ferias y plataformas que promuevan los negocios B2B, con un enfoque en resultados, calidad y excelencia. Nuestra visión es Convertirnos en la compañía líder en Latinoamérica en la organización de ferias y plataformas de negocios B2B.
+                  Soy parte de un equipo innovador y nuestra misión es contribuir al desarrollo económico de las empresas a través de la organización de ferias y plataformas que promuevan los negocios B2B, con un enfoque en resultados, calidad y excelencia. Nuestra visión es convertirnos en la compañía líder en latinoamérica en la organización de ferias y plataformas de negocios B2B.
                 </p>
               </div>
             </Col>
