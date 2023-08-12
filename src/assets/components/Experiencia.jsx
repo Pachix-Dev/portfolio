@@ -10,6 +10,26 @@ export function Experiencia () {
           <Row>
             <Col lg={6} className='my-auto'>
               <div className='rb-left'>
+                <h2>Senior Web Application Developer</h2>
+                <strong>Hannover Fairs México | Presencial</strong>
+                <p>2023 - actual</p>
+                <span className='rb-time'>Tiempo Completo</span>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <div className='rb-right'>
+                <h3>Hannover Fairs México</h3>
+                <p>
+                  Soy parte de un equipo innovador y nuestra misión es contribuir al desarrollo económico de las empresas a través de la organización de ferias y plataformas que promuevan los negocios B2B, con un enfoque en resultados, calidad y excelencia. Nuestra visión es Convertirnos en la compañía líder en Latinoamérica en la organización de ferias y plataformas de negocios B2B.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
+        <div className='resume-row'>
+          <Row>
+            <Col lg={6} className='my-auto'>
+              <div className='rb-left'>
                 <h2>Coordinador TI y DS</h2>
                 <strong>Difraxion | Presencial</strong>
                 <p>2019 - 2023</p>
